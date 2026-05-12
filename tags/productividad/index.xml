@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productividad on LA CARA OCULTA DEL HACKER</title>
+    <link>https://lacaraocultadelhacker.github.io/tags/productividad/</link>
+    <description>Recent content in Productividad on LA CARA OCULTA DEL HACKER</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lacaraocultadelhacker.github.io/tags/productividad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tmux para Pentesters: El entorno que te salvará en las auditorías</title>
+      <link>https://lacaraocultadelhacker.github.io/posts/tmux-para-pentesters/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://lacaraocultadelhacker.github.io/posts/tmux-para-pentesters/</guid>
+      <description>&lt;p&gt;Es una pesadilla recurrente: logras estabilizar una &lt;em&gt;reverse shell&lt;/em&gt; tras horas de enumeración, estás a punto de lanzar el &lt;em&gt;exploit&lt;/em&gt; final y, de repente, una micro-caída de la red te desconecta. Adiós a todo tu progreso. Toca volver a empezar.&lt;/p&gt;&#xA;&lt;p&gt;En las máquinas de los laboratorios de la UOC nos pasa constantemente cuando la VPN da un micro-corte. Aquí es donde entra &lt;strong&gt;Tmux&lt;/strong&gt; (Terminal Multiplexer). La mayoría cree que es solo una herramienta estética para dividir la pantalla, pero en realidad es tu seguro de vida durante cualquier auditoría.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

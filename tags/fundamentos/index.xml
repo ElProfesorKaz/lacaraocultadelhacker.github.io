@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fundamentos on LA CARA OCULTA DEL HACKER</title>
+    <link>https://lacaraocultadelhacker.github.io/tags/fundamentos/</link>
+    <description>Recent content in Fundamentos on LA CARA OCULTA DEL HACKER</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lacaraocultadelhacker.github.io/tags/fundamentos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>De 0 a root: Cómo iniciarte en el mundo del hacking sin perder la cabeza</title>
+      <link>https://lacaraocultadelhacker.github.io/posts/de-cero-a-root/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://lacaraocultadelhacker.github.io/posts/de-cero-a-root/</guid>
+      <description>&lt;p&gt;El cine ha hecho mucho daño a nuestra profesión. Empezar en ciberseguridad no va de ponerse una capucha, abrir una terminal en verde y teclear a la velocidad de la luz para entrar en un servidor en 30 segundos.&lt;/p&gt;&#xA;&lt;p&gt;El &lt;em&gt;pentesting&lt;/em&gt; real es metodología, frustración, lectura de documentación y, sobre todo, entender profundamente cómo funcionan las cosas antes de intentar romperlas. Si estás pensando en dar el salto a este sector, aquí tienes la hoja de ruta que me hubiera gustado leer a mí.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

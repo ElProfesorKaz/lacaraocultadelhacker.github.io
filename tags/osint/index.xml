@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OSINT on LA CARA OCULTA DEL HACKER</title>
+    <link>http://localhost:1313/tags/osint/</link>
+    <description>Recent content in OSINT on LA CARA OCULTA DEL HACKER</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/osint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lo que Shodan sabe de tu red (y no te han contado)</title>
+      <link>http://localhost:1313/posts/lo-que-shodan-sabe/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/lo-que-shodan-sabe/</guid>
+      <description>&lt;p&gt;La mayoría de usuarios creen que su red doméstica o empresarial es invisible desde el exterior. Sin embargo, motores de búsqueda de IoT están indexando constantemente servicios expuestos, puertos abiertos y vulnerabilidades críticas.&lt;/p&gt;&#xA;&lt;h2 id=&#34;el-riesgo-de-la-exposición-silenciosa&#34;&gt;El Riesgo de la Exposición Silenciosa&lt;/h2&gt;&#xA;&lt;p&gt;Cuando realizamos auditorías de seguridad, el primer paso nunca es lanzar un &lt;em&gt;exploit&lt;/em&gt;. El reconocimiento pasivo es la fase más crítica. Herramientas como Shodan actúan como un faro que ilumina todos los dispositivos conectados a internet.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
