@@ -1,4 +1,5 @@
-baseURL = 'https://lacaraocultadelhacker.github.io/'
+baseURL = "https://elprofesorkaz.github.io/lacaraocultadelhacker.github.io/"
+relativeURLs = true
 languageCode = 'es-es'
 title = 'LA CARA OCULTA DEL HACKER'
 theme = 'terminal'
