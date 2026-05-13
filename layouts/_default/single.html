@@ -1,0 +1,47 @@
+{{ define "main" }}
+<main class="post">
+
+  <div style="margin-bottom: 2rem;">
+    <a href="{{ .Site.BaseURL }}posts/" style="color: var(--accent-green); text-decoration: none; font-family: var(--font-mono); font-size: 0.9rem; border: 1px solid var(--accent-green); padding: 0.5rem 1rem; border-radius: 4px; transition: all 0.3s ease; display: inline-block;" onmouseover="this.style.background='var(--accent-green)'; this.style.color='var(--bg-primary)';" onmouseout="this.style.background='transparent'; this.style.color='var(--accent-green)';">
+      cd ..
+    </a>
+  </div>
+
+  <article>
+    <h1 class="post-title" style="margin-bottom: 0.5rem;">
+      <a href="{{ .Permalink }}" style="color: var(--text-primary); text-decoration: none;">{{ .Title | markdownify }}</a>
+    </h1>
+    
+    <div class="post-info" style="color: var(--text-muted); font-family: var(--font-mono); margin-bottom: 2rem; font-size: 0.9rem;">
+      SYS_TIME: {{ .Date.Format "02/01/2006" }}
+    </div>
+
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+  </article>
+
+  <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px dashed var(--accent-green); margin-top: 4rem; padding-top: 2rem;">
+    
+    <a href="javascript:history.back()" style="color: var(--accent-green); text-decoration: none; font-family: var(--font-mono); font-size: 0.9rem; border: 1px solid var(--accent-green); padding: 0.5rem 1rem; border-radius: 4px; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.background='var(--accent-green)'; this.style.color='var(--bg-primary)';" onmouseout="this.style.background='transparent'; this.style.color='var(--accent-green)';">
+      &lt; exit
+    </a>
+    
+    <a href="#" onclick="window.scrollTo({top:0, behavior:'smooth'}); return false;" style="color: var(--accent-green); text-decoration: none; font-family: var(--font-mono); font-size: 0.9rem; border: 1px solid var(--accent-green); padding: 0.5rem 1rem; border-radius: 4px; transition: all 0.3s ease;" onmouseover="this.style.background='var(--accent-green)'; this.style.color='var(--bg-primary)';" onmouseout="this.style.background='transparent'; this.style.color='var(--accent-green)';">
+      ^ clear
+    </a>
+
+  </div>
+
+  <div class="post-info" style="margin-top: 2rem;">
+    {{ with .Params.tags }}
+      <span class="post-tags" style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+        {{ range . }}
+          <a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}" style="font-size: 0.8rem; background: rgba(0, 255, 65, 0.1); border: 1px solid var(--accent-green); color: var(--accent-green); padding: 0.3rem 0.6rem; border-radius: 4px; font-family: var(--font-mono); text-decoration: none;">#{{ . }}</a>
+        {{ end }}
+      </span>
+    {{ end }}
+  </div>
+
+</main>
+{{ end }}
