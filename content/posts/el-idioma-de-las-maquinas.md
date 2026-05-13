@@ -1,6 +1,6 @@
 ---
 title: "El idioma de las máquinas: Qué necesitas saber de redes antes de lanzar un nmap"
-date: 2026-05-15
+date: 2026-05-13
 tags: ["redes", "pentesting", "fundamentos", "iniciación"]
 ---
 
